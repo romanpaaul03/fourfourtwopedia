@@ -1,0 +1,63 @@
+.label{
+-fx-text-fill:#f8f9fa;
+}
+.blackBg{
+    -fx-background-color: #212529;;
+}
+.ornageLbl{
+    -fx-text-fill:#FFA500;
+}
+
+/* CSS code */
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent orange transparent;
+    -fx-border-width: 0 0 1 0; /* Setting only the bottom border width */
+    -fx-border-radius: 0; /* Optional: remove border radius */
+    -fx-padding: 5 0 5 0; /* Optional: adjust padding */
+    -fx-text-fill:#ffffff;
+}
+.hoverPointer{
+     -fx-cursor: hand; /* Optional: Change cursor on hover */
+}
+
+/* CSS code */
+.button {
+    -fx-background-color: #FFA500; /* Orange background color on hover */
+    -fx-text-fill:#f8f9fa;
+    -fx-border-width: 0 0 2 0; /* Bottom border width */
+    -fx-border-radius: 0; /* Optional: remove border radius */
+    -fx-padding: 5 10 5 10; /* Optional: adjust padding */
+    -fx-font-size: 14px; /* Optional: adjust font size */
+    -fx-transition-duration: 0.2s; /* Transition duration */
+}
+
+.button:hover {
+    -fx-background-color: #e36414; /* Orange background color on hover */
+}
+
+
+.lightBlackBg{
+    -fx-background-color:#161a1d;
+}
+
+
+.navBarButton{
+    -fx-text-fill:#FFA500;
+    -fx-background-color:transparent;
+    -fx-border-radius:0;
+}
+.navBarButton:hover{
+    -fx-text-fill:#ffffff;
+    -fx-background-color:#FFA500;
+}
+
+.playerInfoCard{
+    -fx-background-color:#FFA500;
+    -fx-text-fill:#FFA500;
+    -fx-background-radius:10px;
+}
+
+.playerInfoCard:hover{
+    -fx-background-color: #e36414;
+}

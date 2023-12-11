@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="566.0" prefWidth="979.0" styleClass="blackBg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fourfourtwopedia.Controllers.PlayerDashboard">
+   <children>
+      <BorderPane layoutX="168.0" layoutY="37.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="134.0" styleClass="lightBlackBg" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="99.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Assets/p.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label fx:id="userNameTxt" alignment="CENTER" prefHeight="29.0" prefWidth="134.0" text="name">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Button mnemonicParsing="false" onAction="#competetionAction" prefHeight="23.0" prefWidth="134.0" styleClass="navBarButton" text="Competetion" />
+                  <Button mnemonicParsing="false" onAction="#editPersonInfoAction" prefHeight="23.0" prefWidth="134.0" styleClass="navBarButton" text="Edit Info" />
+                  <Button mnemonicParsing="false" onAction="#playerStatsOnClick" prefHeight="23.0" prefWidth="134.0" styleClass="navBarButton" text="Stats" />
+                  <Button mnemonicParsing="false" onAction="#signOutAction" prefHeight="23.0" prefWidth="134.0" styleClass="navBarButton" text="Sign Out" />
+               </children></VBox>
+         </left>
+         <center>
+            <AnchorPane fx:id="childPane" prefHeight="600.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

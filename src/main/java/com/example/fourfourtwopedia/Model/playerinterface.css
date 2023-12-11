@@ -1,0 +1,22 @@
+#lastMatchesLabel {
+	-fx-font-size: 25px;
+	-fx-font-weight: bold;
+	-fx-alignment: CENTER;	
+	-fx-text-fill: orange;
+}
+
+#matchEntryLabel {
+    -fx-font-size: 15px;
+    -fx-font-style: italic;
+}
+
+#postCardLabel {
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
+
+#playerStatsLabel {
+	-fx-font-size: 25px;
+	-fx-font-weight: bold;
+	-fx-text-fill: orange;
+}

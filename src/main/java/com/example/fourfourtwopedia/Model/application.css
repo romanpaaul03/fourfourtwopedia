@@ -1,0 +1,17 @@
+#welcomeLabel {
+    -fx-font-size: 35;
+    -fx-font-weight: bold;
+    -fx-min-height: 50;
+    -fx-alignment: CENTER;
+}
+
+#welcomeLabel2 {
+    -fx-font-size: 15;
+    -fx-alignment: CENTER;
+}
+
+#createAccountLabel {
+	-fx-font-size: 20;
+	-fx-alignment: CENTER;
+	-fx-font-weight: bold;
+}
